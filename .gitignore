@@ -1,0 +1,15 @@
+﻿__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+reports/
+search_results/
+scenes/
+*.log
+*.csv
+!data/sample_1000rows.csv
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

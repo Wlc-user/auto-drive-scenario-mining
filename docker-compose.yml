@@ -1,0 +1,8 @@
+﻿version: '3'
+services:
+  analyzer:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+    command: python integrated_platform.py /app/data/sample_1000rows.csv

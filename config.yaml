@@ -1,0 +1,34 @@
+# ADAS场景分析平台配置文件
+
+# 数据生成
+scenario:
+  duration_s: 600
+  fs: 10
+
+# 急刹车检测
+braking:
+  threshold_mps2: -4.0
+  min_duration_s: 0.5
+
+# 传感器异常阈值
+sensor:
+  camera_confidence_low: 0.5
+  radar_stability_low: 0.5
+  fusion_distance_match_m: 3.0
+
+# 接管根因分析
+takeover:
+  ttc_threshold: 2.0
+  lane_deviation_threshold: 0.5
+  deceleration_threshold: -5.0
+
+# 大数据处理
+bigdata:
+  chunk_size: 100000
+  max_workers: 4
+
+# 输出
+output:
+  dir: reports
+  save_csv: false
+  save_html: true
