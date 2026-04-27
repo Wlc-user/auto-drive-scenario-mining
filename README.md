@@ -59,9 +59,14 @@ python integrated_platform.py
 
 ### 传感器性能全景图
 ![传感器性能](reports/adas_sensor_performance.png)
+<img width="639" height="468" alt="image" src="https://github.com/user-attachments/assets/eac2217c-194b-4512-ae78-9c057982ace2" />
+<img width="1163" height="478" alt="image" src="https://github.com/user-attachments/assets/d94cf17a-6956-43c8-ad40-38c0c904612a" />
 
 ### 接管事件传感器上下文
 ![接管上下文](reports/takeover_sensor_context.png)
+<img width="891" height="496" alt="image" src="https://github.com/user-attachments/assets/4c14aee9-7862-42ae-8f65-81a606434cec" />
+<img width="672" height="473" alt="image" src="https://github.com/user-attachments/assets/03ef310d-2cad-40c2-a185-0b2e77fe6dc0" />
+<img width="1253" height="263" alt="image" src="https://github.com/user-attachments/assets/80b9c266-d842-4ecd-89fc-bbef30fd1c30" />
 
 ### 传感器融合热力图
 ![融合热力图](reports/sensor_fusion_heatmap.png)
